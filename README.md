@@ -1,5 +1,3 @@
-# Majesticons
-
 **Majesticons** is a Flutter package that provides a rich set of customizable icons for your Flutter applications. It includes a wide variety of icon styles, both outlined and filled, to help bring your app designs to life.
 
 Icons are sourced from [Majesticons](https://www.majesticons.com/), which provides free and high-quality icons for designers and developers.
@@ -40,9 +38,3 @@ import 'package:majesticons/majesticons.dart';
 
 Icon(Majesticons.heart_solid);
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
