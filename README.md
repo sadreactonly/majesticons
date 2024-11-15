@@ -1,4 +1,4 @@
-## Majesticons
+## Majesticons for Flutter
 
 **Majesticons** is a Flutter package that provides a rich set of customizable icons for your Flutter applications. It includes a wide variety of icon styles, both outlined and filled, to help bring your app designs to life.
 
