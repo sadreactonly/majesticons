@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'icon_map_generator.dart';
+import 'icon_map.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +32,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final Map<String, IconData> allIcons = IconMap.getIconMap();
+  final Map<String, IconData> allIcons = IconMapGenerator.getIconMap();
   late List<MapEntry<String, IconData>> filteredIcons;
   String searchQuery = '';
 
@@ -68,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print('All Icons: ${allIcons.length}');
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),

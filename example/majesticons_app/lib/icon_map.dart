@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:majesticons/majesticons.dart';
 
-class IconMap {
+class IconMapGenerator {
   static Map<String, IconData> getIconMap() {
     return {
       'icon_2g_circle_line': Majesticons.icon_2g_circle_line,
@@ -649,6 +649,8 @@ class IconMap {
       'clipboard_solid': Majesticons.clipboard_solid,
       'clipboard_warehouse_list_line':
           Majesticons.clipboard_warehouse_list_line,
+      'clipboard_warehouse_list_solid':
+          Majesticons.clipboard_warehouse_list_solid,
       'clock_attachment_line': Majesticons.clock_attachment_line,
       'clock_attachment_solid': Majesticons.clock_attachment_solid,
       'clock_bookmark_line': Majesticons.clock_bookmark_line,
@@ -926,6 +928,8 @@ class IconMap {
       'hand_pointer_car_solid': Majesticons.hand_pointer_car_solid,
       'hand_pointer_destination_line':
           Majesticons.hand_pointer_destination_line,
+      'hand_pointer_destination_solid':
+          Majesticons.hand_pointer_destination_solid,
       'hand_pointer_dial_line': Majesticons.hand_pointer_dial_line,
       'hand_pointer_dial_solid': Majesticons.hand_pointer_dial_solid,
       'hand_pointer_draw_solid': Majesticons.hand_pointer_draw_solid,
