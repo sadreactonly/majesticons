@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 - Release
+
+- 🛠 **Comments Added**
+
 ## 1.0.0 - Initial Release
 
 - 🎉 **First release of Majesticons**: Added over 1300 icons, both solid and line styles, covering multiple categories and use-cases.

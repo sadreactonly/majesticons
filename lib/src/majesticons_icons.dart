@@ -2,6 +2,20 @@ import 'package:flutter/widgets.dart';
 
 import 'majesticons_data.dart';
 
+/// A class containing all icons from the Majesticons font as static constants.
+///
+/// The [Majesticons] class provides easy access to the Majesticons icons
+/// through a collection of static constants. Each icon is represented
+/// as an [IconData] instance, enabling its use in Flutter widgets like [Icon]
+/// and [IconButton].
+///
+/// Example:
+/// ```dart
+/// Icon(Majesticons.icon_2g_circle_line)
+/// ```
+///
+/// Icons are represented using their unique Unicode values (code points),
+/// defined in the [MajesticonsData] class.
 class Majesticons {
   Majesticons._();
   static const IconData icon_2g_circle_line = MajesticonsData(0xe800);
