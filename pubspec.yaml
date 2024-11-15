@@ -1,7 +1,8 @@
 name: majesticons
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Flutter package providing over 1300 customizable icons, both in solid and line styles, for enriching your app's UI."
+version: 1.0.0
+homepage: https://github.com/sadreactonly/majesticons
+repository: https://github.com/sadreactonly/majesticons
 
 environment:
   sdk: ^3.5.3

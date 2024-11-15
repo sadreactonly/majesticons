@@ -1,35 +1,44 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Majesticons
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**Majesticons** is a Flutter package that provides a rich set of customizable icons for your Flutter applications. It includes a wide variety of icon styles, both outlined and filled, to help bring your app designs to life.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Icons are sourced from [Majesticons](https://www.majesticons.com/), which provides free and high-quality icons for designers and developers.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- 🎨 **Wide Variety of Icons**: Over 1300 icons covering different categories and use-cases, including communication, interface elements, and more.
+- 🌟 **Solid and Line Styles**: Each icon is available in both solid and line styles, offering flexibility for your design needs.
+- 🛠 **Easy Integration**: Integrate icons easily using `Icon(Majesticons.iconName)`.
 
-## Getting started
+## Available Icons
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+The package provides a comprehensive set of icons, which are accessible by name. Each icon name follows a convention that makes it easy to find and use:
+
+- `Majesticons.clipboard_warehouse_list_solid`
+- `Majesticons.camera_line`
+- `Majesticons.folder_open_solid`
+  
+
+To see the full list of icons, refer to the [demo website](https://majesticons-demo.web.app).
+
+## Getting Started
+
+To get started, add **Majesticons** to your `pubspec.yaml`:
+
+``` yaml
+dependencies:
+  majesticons: ^1.0.0
+```
 
 ## Usage
 
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
-```dart
-const like = 'sample';
+``` Dart
+import 'package:majesticons/majesticons.dart';
+
+Icon(Majesticons.heart_solid);
 ```
 
 ## Additional information
